@@ -59,7 +59,7 @@
 	position:relative;
 	width: 97px; 
 	height:19px;
-	background: url(../../images/level_bg.png) 0 0 repeat-x;
+	background: url(../images/level_bg.png) 0 0 repeat-x;
 }
 .widget_skills .style_3 .progress {
 	display:block;
@@ -75,7 +75,7 @@
 	right: 0;
 	height: 17px;
 	position: absolute;
-	background: url(../../images/level_mask.png) 0 0 repeat-x;
+	background: url(../images/level_mask.png) 0 0 repeat-x;
 }
 .widget_skills .style_3 .caption {
 	float: left;

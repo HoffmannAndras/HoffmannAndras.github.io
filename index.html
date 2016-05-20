@@ -8,14 +8,11 @@
     <title>CV - Hoffmann András</title>
 
     <link type="text/css" rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" id="prettyphoto-style-css" href="css/prettyPhoto.css" type="text/css" media="all">
     <link rel="stylesheet" id="jquery_reject-style-css" href="css/jquery.reject.css" type="text/css" media="all">
     <link rel="stylesheet" id="shift_cv-style-css" href="css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" id="shortcodes-css" href="css/shortcodes.css" type="text/css" media="all">
     <link rel="stylesheet" id="responsive-css" href="css/responsive.css" type="text/css" media="all">
     <link rel="stylesheet" id="font_awesome-css" href="css/font-awesome.min.css" type="text/css" media="screen">
     <link rel="stylesheet" id="lato-css" href="css/lato.css" type="text/css" media="all">
-    <link rel="stylesheet" id="custom-style-css" href="css/custom.css" type="text/css" media="all">
     <link rel="stylesheet" id="widget-skills-css" href="css/widget-skills.css" type="text/css" media="all">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -38,19 +35,7 @@
         ga('create', 'UA-52154562-1', '1nd.hu');
         ga('send', 'pageview');
 
-        function calculateAge() {
-            var birthday = new Date(1985, 5, 7);
-            var ageDifMs = Date.now() - birthday.getTime();
-            var ageDate = new Date(ageDifMs);
-            return Math.abs(ageDate.getUTCFullYear() - 1970);
-        }
     </script>
-
-    <script type="text/javascript" charset="UTF-8" src="js/common.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/util.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/infowindow.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/stats.js"></script>
 </head>
 <body class="home blog light">
 
@@ -79,11 +64,11 @@
             <div id="content" class="site_content" role="main">
 
                 <section id="profile" class="section profile_section first odd">
-                    <div class="section_header profile_section_header opened">
+                    <div class="section_header profile_section_header">
                         <h2 class="section_title profile_section_title vis">
                             <a href="#">
                                 <span class="icon icon-user"></span>
-                                <span class="section_name">Profile</span>
+                                <span class="section_name show" style="opacity: 0; width: 0px;">Profile</span>
                             </a>
                             <span class="section_icon"></span>
                         </h2>
@@ -96,8 +81,8 @@
                                 <div id="profile_name_area">
                                     <div id="profile_name">
                                         <h1 id="profile_title">
-                                            <span class="lastname">Hoffmann</span>
                                             <span class="firstname">András</span>
+                                            <span class="lastname">Hoffmann</span>
                                         </h1>
                                         <h4 id="profile_position">
                                             Backend developer <br>
@@ -109,13 +94,13 @@
                             </div>
                             <div id="profile_data">
                                 <div class="profile_row">
-                                    <span class="th">Név:</span><span class="td">Hoffmann András</span>
+                                    <span class="th">Name:</span><span class="td">Hoffmann András</span>
                                 </div>
                                 <div class="profile_row">
-                                    <span class="th">Kor:</span><span class="td">31</span>
+                                    <span class="th">Age:</span><span class="td age">31</span>
                                 </div>
                                 <div class="profile_row">
-                                    <span class="th">Telefonszám:</span><span class="td">+36 30 532 2433</span>
+                                    <span class="th">Phone number:</span><span class="td">+36 30 532 2433</span>
                                 </div>
                                 <div class="profile_row">
                                     <span class="th">E-mail:</span><span class="td">hoffmann.andras@1nd.hu</span>
@@ -124,7 +109,7 @@
 
                         </div>
                     </div>
-                    <div class="section_body profile_section_body">
+                    <div class="section_body profile_section_body" style="display: none;">
                         <div class="profile_body">
 
                         </div>
