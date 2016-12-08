@@ -2860,3 +2860,11 @@ div.pp_pic_holder {
 .motivation-list {
     padding-left: 40px;
 }
+
+.print {
+  font-size: 20px;
+  margin: 15px 0 0 20px;
+}
+.print a span {
+  color: #c4c4c4;
+}
